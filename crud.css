@@ -1,0 +1,112 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;    /*this become universal font* jaha change karna hoga vha change kar lenge */
+}
+h1,h2,h3{                                                   
+    font-family: 'Akaya Telivigala', cursive;      /*heading ke liye yeh bala font use hoga*/
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+   
+    margin: 0%   /*kyuki body main phle se thora margin hota h*/
+}
+.unipad{
+    padding: 0% 7%;  /*yeh class common hogi kyuki psd main har jagah padding h throughout complete web site*/
+}
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+#social{
+    float: right;
+}
+#tollfree{
+    float: left;
+    color: white;
+    margin: 0%;
+    margin-top: 5px;
+}
+.fab{
+    background-color: white;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+padding: 7px 10px;
+}
+.fa-whatsapp{
+padding: 9px 10px;
+}
+.fa-instagram{
+    padding: 9px 10px;
+}
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+
+}
+a{
+    color: white;
+}
+#navbar ul{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0%;
+}
+#implink{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.d33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    
+}
+.d33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px; /*gap between upper word and underline*/
+    text-decoration-thickness: 2.................................px;
+}
+#footermenu{
+    list-style: none; line-height: 38px;
+}
+
+#footermenu ul li{
+    padding-bottom: 8px;
+}   
+#copy{
+    text-align: center;
+    background-color: #222f3e;
+    color: white;
+    padding: 10px;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#poster{
+    background-image: url(ss/2374.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a5472;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    text-align: center;
+}

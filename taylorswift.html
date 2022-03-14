@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Taylor swift</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+
+*{
+margin: 0px;
+padding: 0px;
+}
+.aaa{
+border-radius: 30px;
+}
+.nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav1 ul li{
+  float: left;
+}
+.nav1 li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav1 li a:hover {
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(19, 14, 14);
+}
+.bi{
+  float: right;
+  padding-right: 20px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+    </style>
+
+<script>
+    var number=1;
+    function next()
+    {
+        var count=number+=1;
+        document.getElementById("vvv").innerHTML="value"+count+"  "+number;;
+        document.getElementById("chan").src="ss/00"+count+".jpg";
+        if(count==6)
+        {
+            number=0;
+        }
+    }
+    function previous()
+    {
+      
+        var count=number-=1;
+        document.getElementById("vvv").innerHTML="value"+count+"  "+number;;
+       // document.getElementById("wall").innerHTML="value"+count;
+       document.getElementById("chan").src="ss/00"+count+".jpg"
+        if(count<=1)
+        {
+            number=6;
+        }
+    }
+
+</script>
+</head>
+<body>
+  <div id="vvv"></div>
+    <div class="container-fluid">
+        <div class="row bg-black text-white bg-dark text-center" ><marquee> <a href="" class="text-light"> CLICK HERE FOR FREE TRIAL - SIGN UP NOW</a></marquee></div>
+        <div class="row mt-2">
+            <div class="col-lg-2">
+                <input type="image" src="ss/PngItem_1160531.png" style="width: 80%; height: 50px; margin-top: 2%;">
+
+            </div>
+            <div class="col-lg-6"  >
+                <div class="input-group">
+                    <input type="text" class="form-control aaa"  placeholder="Try:'Funky sunglasses'" style="text-align: center;" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary aaa" type="button">SEARCH</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                <div class="col-lg-4">
+                  <button class="btn btn-outline-dark bg-grey text-white">
+                <a href="" target="_blank" style="text-decoration: none; color: gray; font-size: large;">Login/Register</a>
+                  </button> 
+                 </div>
+                <div class="col-lg-8 float-end" >
+                <a class="bi bi-cart-check"></a>
+                <a class="bi bi-bookmark-check"></a>
+                <a class="bi bi-bell"></a>
+                </div>
+                </div>
+            
+            </div>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 nav1">
+                   <ul>
+                     <li><a href="#" target="_blank">HOME</a></li>
+                     <li><a href="#" target="_blank">STORE</a></li>
+                     <li><a href="#" target="_blank">BUY OFFLINE</a></li>
+                     <li><a href="#" target="_blank">CONTACT US</a></li>
+                     <li><a href="#" target="_blank">HELP</a></li>
+                   </ul>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+          <input type="image" src="ss/001.jpg" alt="" id="chan" width="100%" height="500px" style="z-index: 1;">
+         <input type="image" src="ss/left.png" onclick="previous()" style="width: 5%; height: 60px;z-index: 3; position: absolute; top: 250px;" >
+         <input type="image" src="ss/righjt.png"  onclick="next()" style="width: 10%;height:134px; margin-left: 90.5%; position: relative; top: -311px;">
+            </div>
+        </div>
+    </div>
+  
+ 
+</body>
+</html>
